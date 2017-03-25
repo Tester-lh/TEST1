@@ -14,3 +14,18 @@
 
 yuanzu=(1,2,3,3,4,5,5,6)
 print(yuanzu[1])
+'''
+ertert
+'''
+"""
+asd
+asfas
+asf"""
+
+
+
+code = """
+asdasd \
+sdfds \
+gdfgsg"""
+print(code)
