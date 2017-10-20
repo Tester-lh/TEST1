@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 wb = load_workbook(filename='testExcel.xlsx')
 
 sheets = wb.get_sheet_names()  # 获取所有表格(worksheet)的名字
-sheet_0 = sheets[2]  # 第一个表格的名称
+sheet_0 = sheets[0]  # 第一个表格的名称
 ws = wb.get_sheet_by_name(sheet_0)  # 获取特定的 worksheet
 
 # 获取表格所有行和列，两者都是可迭代的

@@ -2,7 +2,7 @@ import random
 
 str1 = ''
 for j in range(0, 100):
-    for i in range(0, 5):
+    for i in range(0, 4):
         str1 += random.choice([str(random.randint(0, 9)), chr(random.randint(65, 90))])
         i += 1
     str1 += '-'
@@ -14,7 +14,7 @@ print(str1.rstrip('-'))
 str2 = ''
 list2 = []
 for j in range(0, 100):
-    for i in range(0, 5):
+    for i in range(0, 4):
         str2 += random.choice([str(random.randint(0, 9)), chr(random.randint(65, 90))])
         i += 1
     list2.append(str2)
@@ -26,6 +26,6 @@ print('-'.join(list2))
 str3 = ''
 for i in range(0, 500):
     str3 += random.choice([str(random.randint(0, 9)), chr(random.randint(65, 90))])
-    if ((i + 1) % 5 == 0) & (i != 499):
+    if ((i + 1) % 4 == 0) & (i != 499):
         str3 += '-'
 print(str3)
